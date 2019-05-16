@@ -1,0 +1,32 @@
+{
+  "name": "Basic-gulp",
+  "version": "1.0.0",
+  "description": "Temporary gulp for development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "uastyle",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "bootstrap": "^4.0.0-beta.2",
+    "bootstrap-sass": "^3.3.7",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-bootstrap-configurator": "^0.4.1",
+    "gulp-cache": "^1.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^4.0.0",
+    "jquery": "^1.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rigger": "^0.5.8",
+    "popper.js": "^1.12.9",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "imagemin-pngquant": "^5.0.1"
+  }
+}

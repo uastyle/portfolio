@@ -1,0 +1,70 @@
+// =============================================================================
+//    #  Skills
+// =============================================================================
+
+.skills {
+  padding: 50px 0 0 0;
+  width: 100%;
+  height: auto;
+  background: url(../img/bg_skills.jpg) repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: $white-color;
+
+  .page-header {
+    
+    hr {
+      background-color: $white-color;
+    }
+  }
+  .download {
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+    min-width: 195px;
+    border: 1px solid $white-color;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    &:after {
+      display: none;
+    }
+    i {
+      margin-right: 10px;
+    }
+  }
+  .tech {
+    text-align: center;
+    @media only screen and (max-width: 375px) {
+      display: none;
+    }
+    i {
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      width: 170px;
+      height: 170px;
+      font-size: 8rem;
+      line-height: 170px;
+      border: 2px solid $white-color;
+      border-radius: 50%;
+      @media only screen and (max-width: 768px) {
+        width: 80px;
+        height: 80px;
+        font-size: 3rem;
+        line-height: 5rem;
+      }
+    }
+    h2 {
+      @media only screen and (max-width: 576px) {
+        display: none;
+      }
+    }
+    p {
+      @media only screen and (max-width: 576px) {
+        font-size: 1rem;
+      }
+    }
+  }
+}
