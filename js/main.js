@@ -22,6 +22,6 @@ var main={
 	}
 };
 
-$().ready(function(){
+$(document).ready(function(){
 	main.init()
 });
